@@ -1,10 +1,19 @@
-Battleship puzzle solver programmed in c++
+# Battle Ship Puzzle Solver
 
-Two classes:
+## Instructions to run (linux terminal)
 
-Board
+###### 1. Clone the repository onto your local machine
 
-Ship
+###### 2. Place all .cpp and .h files in a folder or leave them in current folder. Compile all files into an executable using the following 
 
-Command line:
-./run.exe [input file] [type "all" for all solutions or leave blank for 1 solution]
+'''
+g++ *.cpp *.h -o run.exe
+'''
+###### 3. Now place one of the example file in the sample-input folder in the same folder as the executable (run.exe)
+
+Next type
+'''
+./run.exe [name of input file]
+'''
+If you want multiple solutions
+add the tag "all" after the name of the input file
